@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_array_arrays",
+  "info": {
+    "displayName": "Array"
+  },
+  "options": {},
+  "attributes": {
+    "Genres": {
+      "type": "enumeration",
+      "enum": [
+        "acao",
+        "comedia"
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movies",
+  "info": {
+    "singularName": "movie",
+    "pluralName": "movies",
+    "displayName": "Movie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "overview": {
+      "type": "text"
+    },
+    "poster_path": {
+      "type": "string"
+    },
+    "backdrop_path": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "movie_id": {
+      "type": "biginteger"
+    },
+    "genre_ids": {
+      "type": "string"
+    },
+    "adult": {
+      "type": "boolean"
+    },
+    "original_language": {
+      "type": "string"
+    },
+    "original_title": {
+      "type": "string"
+    },
+    "popularity": {
+      "type": "float"
+    },
+    "release_date": {
+      "type": "string"
+    },
+    "video": {
+      "type": "boolean"
+    },
+    "vote_average": {
+      "type": "decimal"
+    },
+    "vote_count": {
+      "type": "biginteger"
+    }
+  }
+}
