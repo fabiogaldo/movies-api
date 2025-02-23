@@ -3,11 +3,10 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface ArrayArray extends Struct.ComponentSchema {
   collectionName: 'components_array_arrays';
   info: {
+    description: '';
     displayName: 'Array';
   };
-  attributes: {
-    Genres: Schema.Attribute.Enumeration<['acao', 'comedia']>;
-  };
+  attributes: {};
 }
 
 declare module '@strapi/strapi' {
