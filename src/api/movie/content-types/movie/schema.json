@@ -55,6 +55,9 @@
     },
     "vote_count": {
       "type": "biginteger"
+    },
+    "backdrop_color": {
+      "type": "string"
     }
   }
 }

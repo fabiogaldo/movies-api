@@ -408,6 +408,7 @@ export interface ApiMovieMovie extends Struct.CollectionTypeSchema {
   };
   attributes: {
     adult: Schema.Attribute.Boolean;
+    backdrop_color: Schema.Attribute.String;
     backdrop_path: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
